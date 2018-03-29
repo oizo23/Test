@@ -8,19 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		146A2A2B206CEA6C001941C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146A2A2A206CEA6C001941C4 /* AppDelegate.swift */; };
-		146A2A2D206CEA6C001941C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146A2A2C206CEA6C001941C4 /* ViewController.swift */; };
 		146A2A30206CEA6C001941C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 146A2A2E206CEA6C001941C4 /* Main.storyboard */; };
 		146A2A32206CEA6C001941C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146A2A31206CEA6C001941C4 /* Assets.xcassets */; };
 		146A2A35206CEA6C001941C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 146A2A33206CEA6C001941C4 /* LaunchScreen.storyboard */; };
 		146A2A3E206CEE09001941C4 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146A2A3D206CEE09001941C4 /* DesignableButton.swift */; };
 		146A2A40206CEFAB001941C4 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146A2A3F206CEFAB001941C4 /* DesignableTextField.swift */; };
 		146A2A42206CF019001941C4 /* DesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146A2A41206CF019001941C4 /* DesignView.swift */; };
+		146A2A44206CF3EE001941C4 /* LoginFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146A2A43206CF3EE001941C4 /* LoginFormVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		146A2A27206CEA6C001941C4 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		146A2A2A206CEA6C001941C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		146A2A2C206CEA6C001941C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		146A2A2F206CEA6C001941C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		146A2A31206CEA6C001941C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		146A2A34206CEA6C001941C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -28,6 +27,7 @@
 		146A2A3D206CEE09001941C4 /* DesignableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
 		146A2A3F206CEFAB001941C4 /* DesignableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
 		146A2A41206CF019001941C4 /* DesignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignView.swift; sourceTree = "<group>"; };
+		146A2A43206CF3EE001941C4 /* LoginFormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			children = (
 				146A2A3C206CEDE4001941C4 /* IBdesignable */,
 				146A2A2A206CEA6C001941C4 /* AppDelegate.swift */,
-				146A2A2C206CEA6C001941C4 /* ViewController.swift */,
+				146A2A43206CF3EE001941C4 /* LoginFormVC.swift */,
 				146A2A2E206CEA6C001941C4 /* Main.storyboard */,
 				146A2A31206CEA6C001941C4 /* Assets.xcassets */,
 				146A2A33206CEA6C001941C4 /* LaunchScreen.storyboard */,
@@ -153,10 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				146A2A2D206CEA6C001941C4 /* ViewController.swift in Sources */,
 				146A2A2B206CEA6C001941C4 /* AppDelegate.swift in Sources */,
 				146A2A42206CF019001941C4 /* DesignView.swift in Sources */,
 				146A2A3E206CEE09001941C4 /* DesignableButton.swift in Sources */,
+				146A2A44206CF3EE001941C4 /* LoginFormVC.swift in Sources */,
 				146A2A40206CEFAB001941C4 /* DesignableTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

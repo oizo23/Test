@@ -43,10 +43,10 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
-        <!--View Controller-->
+        <!--Login FormVC-->
         <scene sceneID="5W6-h3-VBd">
             <objects>
-                <viewController id="aFI-GD-Oxy" sceneMemberID="viewController">
+                <viewController id="aFI-GD-Oxy" customClass="LoginFormVC" customModule="Test" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZlJ-Us-O53">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
